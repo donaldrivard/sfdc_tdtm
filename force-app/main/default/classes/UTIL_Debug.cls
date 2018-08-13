@@ -8,6 +8,7 @@ public class UTIL_Debug {
 
     // Disable debug logs in all tests, otherwise get the setting
     // August 2018: Previously, debugging was enabled in all tests. Disabling should significantly help with performance.
+    // Need to create configuration
     public static Boolean enabled = Test.isRunningTest() ? false : false;//UTIL_CustomSettingsFacade.getErrorSettings().Enable_Debug__c;
 
     /*******************************************************************************************************
