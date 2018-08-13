@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Notifications_To__c</fullName>
+    <fullName>Error_Notifications_To__c</fullName>
     <deprecated>false</deprecated>
     <description>Who should receive error notifications.</description>
     <externalId>false</externalId>
