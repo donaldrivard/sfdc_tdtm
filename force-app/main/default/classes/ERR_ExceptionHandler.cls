@@ -33,6 +33,7 @@ public with sharing class ERR_ExceptionHandler {
     * @description Updates an exception's message string to a more friendly format.
     * @param message String of the error to update.
     * @return String Cleaned up error message
+    * Another Comment
     */
     public static String beautifyExceptionMessage(String message) {
         for (String STATUS : EXCEPTION_MESSAGES.keySet()) {
